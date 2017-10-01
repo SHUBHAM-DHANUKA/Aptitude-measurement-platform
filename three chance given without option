@@ -1,0 +1,38 @@
+package Aptitudemeasurement;
+import java.util.Scanner;
+public class Threechancegiven {
+       public static void main (String args[])
+       {
+	      Scanner input = new Scanner(System.in);
+	      System.out.println("welcome to three chance given quiz competition");
+	      System.out.println("we are happy, that you are here");
+	      System.out.println("are you ready to Start");
+	      String a = input.nextLine();
+	    if ( a.equals("yes")){
+		        System.out.println("your first question is ");
+		        System.out.print("who is the ceo of apple company ");
+		        String answer1 = input.nextLine();
+		  if(answer1.equals("timcook"))
+		        System.out.println("you are right");
+		  else{
+			      System.out.println("you are wrong "+"try again " +"u still have 2 chance ");
+		        String answer2 = input.nextLine();
+		  if(answer2.equals("timcook")){
+			      System.out.println("you are right");}
+		  else{
+			      System.out.println("you are wrong "+"try again " +"u still have 1 chance ");
+		        String answer3 = input.nextLine();
+		  if(answer3.equals("timcook")){
+			      System.out.println("you are right");}
+		  else{
+			      System.out.println("the right answer is tim cook");
+	 }	
+	 }
+	 }
+	 }
+	    else
+		       System.out.println("alright"+" try next time");
+}	 
+}
+
+
